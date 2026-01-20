@@ -74,13 +74,7 @@ export default function AttorneyCard({
 
         {email && (
           <p className="mt-4 text-sm text-primary-600">
-            <a
-              href={`mailto:${email}`}
-              className="hover:text-primary-900 transition-colors"
-              onClick={(e) => e.stopPropagation()}
-            >
-              {email}
-            </a>
+            {email}
           </p>
         )}
 
