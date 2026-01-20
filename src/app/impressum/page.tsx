@@ -64,7 +64,7 @@ export default function ImpressumPage() {
               <a href="https://www.rak-hamm.de" target="_blank" rel="noopener noreferrer">www.rak-hamm.de</a>
             </p>
             <p>
-              Die gesetzliche Berufsbezeichnung „Rechtsanwalt" bzw. „Rechtsanwältin" wurde in der Bundesrepublik Deutschland verliehen.
+              Die gesetzliche Berufsbezeichnung &bdquo;Rechtsanwalt&ldquo; bzw. &bdquo;Rechtsanwältin&ldquo; wurde in der Bundesrepublik Deutschland verliehen.
             </p>
             <p>
               Berufsrechtliche Regelungen:
