@@ -1,6 +1,7 @@
 import PageHero from '@/components/PageHero'
 import ContactBlock from '@/components/ContactBlock'
 import Link from 'next/link'
+import Image from 'next/image'
 
 interface AttorneyProfilePageProps {
   name: string
@@ -64,10 +65,11 @@ export default function AttorneyProfilePage({
                 <div className="card">
                   {imageUrl ? (
                     <div className="relative w-full aspect-square rounded-lg overflow-hidden bg-primary-100 mb-4">
-                      <img
+                      <Image
                         src={imageUrl}
                         alt={name}
-                        className="w-full h-full object-cover"
+                        fill
+                        className="object-cover"
                       />
                     </div>
                   ) : (
