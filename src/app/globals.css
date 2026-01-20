@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-neutral-50 text-primary-800 antialiased;
+  }
+
+  /* Skip to content link for accessibility */
+  .skip-to-content {
+    @apply absolute -top-10 left-4 z-50 bg-primary-900 text-white px-4 py-2 rounded-md transition-all duration-200;
+  }
+
+  .skip-to-content:focus {
+    @apply top-4;
+  }
+
+  /* Focus ring styles for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+  }
+
+  /* Improve tap targets on mobile */
+  @media (pointer: coarse) {
+    button,
+    a,
+    input,
+    select,
+    textarea {
+      min-height: 44px;
+    }
+  }
+}
+
+@layer components {
+  /* Modern card component */
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-neutral-200 p-6 transition-all duration-200;
+  }
+
+  .card:hover {
+    @apply shadow-md border-primary-200;
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-primary-800 text-white font-medium rounded-lg transition-all duration-200 hover:bg-primary-900 focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-white text-primary-800 font-medium rounded-lg border-2 border-primary-800 transition-all duration-200 hover:bg-primary-50 focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  /* Navigation dropdown */
+  .nav-dropdown {
+    @apply absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-neutral-200 py-2 opacity-0 invisible transition-all duration-200 transform -translate-y-2;
+  }
+
+  .nav-item:hover .nav-dropdown,
+  .nav-item:focus-within .nav-dropdown {
+    @apply opacity-100 visible translate-y-0;
+  }
+
+  .nav-dropdown-item {
+    @apply block px-4 py-2 text-primary-700 hover:bg-primary-50 hover:text-primary-900 transition-colors duration-150;
+  }
+
+  /* Prose content styling */
+  .prose-content {
+    @apply prose prose-lg max-w-none;
+    @apply prose-headings:font-serif prose-headings:text-primary-900;
+    @apply prose-p:text-primary-700 prose-p:leading-relaxed;
+    @apply prose-a:text-primary-600 prose-a:underline hover:prose-a:text-primary-800;
+    @apply prose-ul:list-disc prose-ol:list-decimal;
+    @apply prose-li:text-primary-700;
+    @apply prose-strong:text-primary-800;
+  }
+
+  /* Section container */
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .container-narrow {
+    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    @apply text-black bg-white;
+  }
+
+  a {
+    @apply text-black no-underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    @apply text-neutral-600;
+  }
+}

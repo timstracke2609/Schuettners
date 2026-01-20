@@ -1,0 +1,285 @@
+{
+  "generatedAt": "2026-01-17T12:30:00.000Z",
+  "baseUrl": "https://www.schuettners.de",
+  "routes": [
+    {
+      "route": "/",
+      "slug": "home",
+      "title": "Kanzlei",
+      "sourceUrl": "https://www.schuettners.de/",
+      "group": "core"
+    },
+    {
+      "route": "/sample-page/",
+      "slug": "sample-page",
+      "title": "Rechtsgebiete",
+      "sourceUrl": "https://www.schuettners.de/sample-page/",
+      "group": "core"
+    },
+    {
+      "route": "/kontakt/",
+      "slug": "kontakt",
+      "title": "Kontakt",
+      "sourceUrl": "https://www.schuettners.de/kontakt/",
+      "group": "core"
+    },
+    {
+      "route": "/formulare/",
+      "slug": "formulare",
+      "title": "Formulare",
+      "sourceUrl": "https://www.schuettners.de/formulare/",
+      "group": "core"
+    },
+    {
+      "route": "/impressum/",
+      "slug": "impressum",
+      "title": "Impressum",
+      "sourceUrl": "https://www.schuettners.de/impressum/",
+      "group": "legal"
+    },
+    {
+      "route": "/datenschutz/",
+      "slug": "datenschutz",
+      "title": "Datenschutz",
+      "sourceUrl": "https://www.schuettners.de/datenschutz/",
+      "group": "legal"
+    },
+    {
+      "route": "/arbeitsrecht/",
+      "slug": "arbeitsrecht",
+      "title": "Arbeitsrecht",
+      "sourceUrl": "https://www.schuettners.de/arbeitsrecht/",
+      "group": "practice-areas"
+    },
+    {
+      "route": "/bank-und-kapitalmarktrecht/",
+      "slug": "bank-und-kapitalmarktrecht",
+      "title": "Bank- und Kapitalmarktrecht",
+      "sourceUrl": "https://www.schuettners.de/bank-und-kapitalmarktrecht/",
+      "group": "practice-areas"
+    },
+    {
+      "route": "/erbrecht/",
+      "slug": "erbrecht",
+      "title": "Erbrecht",
+      "sourceUrl": "https://www.schuettners.de/erbrecht/",
+      "group": "practice-areas"
+    },
+    {
+      "route": "/familienrecht/",
+      "slug": "familienrecht",
+      "title": "Familienrecht",
+      "sourceUrl": "https://www.schuettners.de/familienrecht/",
+      "group": "practice-areas"
+    },
+    {
+      "route": "/forderungseinzug-inkassoservice/",
+      "slug": "forderungseinzug-inkassoservice",
+      "title": "Forderungseinzug / Inkassoservice",
+      "sourceUrl": "https://www.schuettners.de/forderungseinzug-inkassoservice/",
+      "group": "practice-areas"
+    },
+    {
+      "route": "/immobilienrecht/",
+      "slug": "immobilienrecht",
+      "title": "Immobilienrecht",
+      "sourceUrl": "https://www.schuettners.de/immobilienrecht/",
+      "group": "practice-areas"
+    },
+    {
+      "route": "/notariat/",
+      "slug": "notariat",
+      "title": "Notariat",
+      "sourceUrl": "https://www.schuettners.de/notariat/",
+      "group": "practice-areas"
+    },
+    {
+      "route": "/sanierungs-und-insolvenzrecht/",
+      "slug": "sanierungs-und-insolvenzrecht",
+      "title": "Sanierungs- und Insolvenzrecht",
+      "sourceUrl": "https://www.schuettners.de/sanierungs-und-insolvenzrecht/",
+      "group": "practice-areas"
+    },
+    {
+      "route": "/verkehrsrecht/",
+      "slug": "verkehrsrecht",
+      "title": "Verkehrsrecht",
+      "sourceUrl": "https://www.schuettners.de/verkehrsrecht/",
+      "group": "practice-areas"
+    },
+    {
+      "route": "/1216-2/",
+      "slug": "1216-2",
+      "title": "Wirtschaftsrecht",
+      "sourceUrl": "https://www.schuettners.de/1216-2/",
+      "group": "practice-areas"
+    },
+    {
+      "route": "/rechtsanwaelte/",
+      "slug": "rechtsanwaelte",
+      "title": "Rechtsanwälte",
+      "sourceUrl": "https://www.schuettners.de/rechtsanwaelte/",
+      "group": "directory"
+    },
+    {
+      "route": "/notare/",
+      "slug": "notare",
+      "title": "Notare",
+      "sourceUrl": "https://www.schuettners.de/notare/",
+      "group": "directory"
+    },
+    {
+      "route": "/achim-fleig/",
+      "slug": "achim-fleig",
+      "title": "Achim Fleig",
+      "sourceUrl": "https://www.schuettners.de/achim-fleig/",
+      "group": "attorneys",
+      "email": "kanzlei@schuettners.de",
+      "specializations": ["Fachanwalt für Bank- und Kapitalmarktrecht"]
+    },
+    {
+      "route": "/fabian-doyscher/",
+      "slug": "fabian-doyscher",
+      "title": "Fabian Doyscher",
+      "sourceUrl": "https://www.schuettners.de/fabian-doyscher/",
+      "group": "attorneys",
+      "email": "doyscher@schuettners.de",
+      "specializations": ["Miet- und Wohnungseigentumsrecht", "Öffentliches Baurecht"]
+    },
+    {
+      "route": "/hans-peter-hug/",
+      "slug": "hans-peter-hug",
+      "title": "Hans-Peter Hug",
+      "sourceUrl": "https://www.schuettners.de/hans-peter-hug/",
+      "group": "attorneys",
+      "email": "hug@schuettners.de",
+      "specializations": ["Fachanwalt für Handels- und Gesellschaftsrecht", "Fachanwalt für Erbrecht", "Notar"]
+    },
+    {
+      "route": "/philipp-sebastian-hug/",
+      "slug": "philipp-sebastian-hug",
+      "title": "Philipp Sebastian Hug",
+      "sourceUrl": "https://www.schuettners.de/philipp-sebastian-hug/",
+      "group": "attorneys",
+      "email": "p.hug@schuettners.de",
+      "specializations": []
+    },
+    {
+      "route": "/stephan-kuwert/",
+      "slug": "stephan-kuwert",
+      "title": "Stephan Kuwert",
+      "sourceUrl": "https://www.schuettners.de/stephan-kuwert/",
+      "group": "attorneys",
+      "email": "kuwert@schuettners.de",
+      "specializations": ["Fachanwalt für Bau- und Architektenrecht", "Fachanwalt für Miet- und Wohnungseigentumsrecht", "Notar"]
+    },
+    {
+      "route": "/prof-joachim-schuettners/",
+      "slug": "prof-joachim-schuettners",
+      "title": "Prof. Joachim Schüttners",
+      "sourceUrl": "https://www.schuettners.de/prof-joachim-schuettners/",
+      "group": "attorneys",
+      "email": "kanzlei@schuettners.de",
+      "specializations": ["Fachanwalt für Bank- und Kapitalmarktrecht"]
+    },
+    {
+      "route": "/nicole-schuettners/",
+      "slug": "nicole-schuettners",
+      "title": "Nicole Schüttners",
+      "sourceUrl": "https://www.schuettners.de/nicole-schuettners/",
+      "group": "attorneys",
+      "email": "n.schuettners@schuettners.de",
+      "specializations": ["Fachanwältin für Arbeitsrecht"]
+    },
+    {
+      "route": "/gerhard-soekeland/",
+      "slug": "gerhard-soekeland",
+      "title": "Gerhard Sökeland",
+      "sourceUrl": "https://www.schuettners.de/gerhard-soekeland/",
+      "group": "attorneys",
+      "email": "soekeland@schuettners.de",
+      "specializations": ["Gesellschaftsrecht", "Internationales Privatrecht"]
+    },
+    {
+      "route": "/claudia-wollbrecht-schulte/",
+      "slug": "claudia-wollbrecht-schulte",
+      "title": "Claudia Wollbrecht-Schulte",
+      "sourceUrl": "https://www.schuettners.de/claudia-wollbrecht-schulte/",
+      "group": "attorneys",
+      "email": "wollbrecht@schuettners.de",
+      "specializations": ["Fachanwältin für Familienrecht"]
+    }
+  ],
+  "navigation": {
+    "main": [
+      { "label": "Kanzlei", "path": "/" },
+      {
+        "label": "Rechtsanwälte",
+        "path": "/rechtsanwaelte/",
+        "children": [
+          { "label": "Prof. Joachim Schüttners", "path": "/prof-joachim-schuettners/" },
+          { "label": "Hans-Peter Hug", "path": "/hans-peter-hug/" },
+          { "label": "Nicole Schüttners", "path": "/nicole-schuettners/" },
+          { "label": "Claudia Wollbrecht-Schulte", "path": "/claudia-wollbrecht-schulte/" },
+          { "label": "Stephan Kuwert", "path": "/stephan-kuwert/" },
+          { "label": "Achim Fleig", "path": "/achim-fleig/" },
+          { "label": "Gerhard Sökeland", "path": "/gerhard-soekeland/" },
+          { "label": "Fabian Doyscher", "path": "/fabian-doyscher/" },
+          { "label": "Philipp Sebastian Hug", "path": "/philipp-sebastian-hug/" }
+        ]
+      },
+      { "label": "Notare", "path": "/notare/" },
+      {
+        "label": "Rechtsgebiete",
+        "path": "/sample-page/",
+        "children": [
+          { "label": "Wirtschaftsrecht", "path": "/1216-2/" },
+          { "label": "Arbeitsrecht", "path": "/arbeitsrecht/" },
+          { "label": "Bank- und Kapitalmarktrecht", "path": "/bank-und-kapitalmarktrecht/" },
+          { "label": "Erbrecht", "path": "/erbrecht/" },
+          { "label": "Familienrecht", "path": "/familienrecht/" },
+          { "label": "Forderungseinzug / Inkassoservice", "path": "/forderungseinzug-inkassoservice/" },
+          { "label": "Immobilienrecht", "path": "/immobilienrecht/" },
+          { "label": "Notariat", "path": "/notariat/" },
+          { "label": "Sanierungs- und Insolvenzrecht", "path": "/sanierungs-und-insolvenzrecht/" },
+          { "label": "Verkehrsrecht", "path": "/verkehrsrecht/" }
+        ]
+      },
+      { "label": "Formulare", "path": "/formulare/" },
+      { "label": "Kontakt", "path": "/kontakt/" }
+    ]
+  },
+  "contact": {
+    "name": "Schüttners Hug & Partner mbB",
+    "subtitle": "Rechtsanwälte und Notare",
+    "address": {
+      "street": "Kaiserstraße 21-23",
+      "zip": "44135",
+      "city": "Dortmund"
+    },
+    "phone": "(0231) 58 96 94 0",
+    "fax": "(0231) 58 96 94 20",
+    "email": "kanzlei@schuettners.de",
+    "hours": "Mo-Fr: 8:30 Uhr – 18:00 Uhr sowie nach Vereinbarung"
+  },
+  "pdfs": [
+    { "label": "CHECKLISTE GMBH-ERRICHTUNG", "url": "https://www.schuettners.de/wp-content/uploads/checkliste_gmbh-errichtung.pdf" },
+    { "label": "CHECKLISTE GMBH & CO: KG-ERRICHTUNG", "url": "https://www.schuettners.de/wp-content/uploads/checkliste_gmbh-co-kg-errichtung.pdf" },
+    { "label": "CHECKLISTE UG-ERRICHTUNG", "url": "https://www.schuettners.de/wp-content/uploads/checkliste_ug-errichtung.pdf" },
+    { "label": "CHECKLISTE ÜBERLASSUNG", "url": "https://www.schuettners.de/wp-content/uploads/checkliste_ueberlassung.pdf" },
+    { "label": "DATENBLATT ADOPTION", "url": "https://www.schuettners.de/wp-content/uploads/datenblatt_adoption.pdf" },
+    { "label": "DATENBLATT EHEVERTRAG", "url": "https://www.schuettners.de/wp-content/uploads/datenblatt_ehevertrag.pdf" },
+    { "label": "DATENBLATT KAUFVERTRAG", "url": "https://www.schuettners.de/wp-content/uploads/datenblatt_kaufvertrag.pdf" },
+    { "label": "MERKBLATT GMBH-LIQUIDATION", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_gmbh-liquidation.pdf" },
+    { "label": "MERKBLATT AUFGABEN NOTAR IMMOBILIENKAUF", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_aufgaben-notar-immobilienkauf.pdf" },
+    { "label": "MERKBLATT AUFTEILUNG WOHNUNGSEIGENTUM", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_aufteilung-wohnungseigentum.pdf" },
+    { "label": "MERKBLATT CHECKLISTE UG GMBH-ERRICHTUNG", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_checkliste-ug-gmbh-errichtung.pdf" },
+    { "label": "MERKBLATT EHEVERTRAG", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_ehevertrag.pdf" },
+    { "label": "MERKBLATT GRUNDSTÜCKSKAUF", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_grundstueckskauf.pdf" },
+    { "label": "MERKBLATT KAPITALHERABSETZUNG", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_kapitalherabsetzung.pdf" },
+    { "label": "MERKBLATT KAUF EIGENTUMSWOHNUNG", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_kauf-eigentumswohnung.pdf" },
+    { "label": "MERKBLATT MUSTER VORSORGEVOLLMACHT", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_muster-vorsorgevollmacht.pdf" },
+    { "label": "MERKBLATT STIFTUNG ALS INSTRUMENT DER VERMÖGENSFOLGE", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_stiftung-als-instrument-der-vermoegensfolge.pdf" },
+    { "label": "MERKBLATT VEREINSGRÜNDUNG", "url": "https://www.schuettners.de/wp-content/uploads/merkblatt_vereinsgruendung.pdf" }
+  ]
+}
